@@ -20,7 +20,8 @@ module.exports = {
         '2xl': '1536px' 
       },
       colors:{
-        textColor:'#A03232'
+        textColor:'#4D4746',
+        textHover:'#FC7313'
       }
     },
   },
