@@ -10,8 +10,11 @@ export const ContactUs = () => {
         <div className='w-full mt-3 text-center'>
           <h1 className='text-4xl font-bold mb-4 mt-4'>Contact Us</h1>
         </div>
-        <div className='flex flex-col md:flex-row gap-4'>
-          <About />
+        <div className='flex md:flex-row gap-4'>
+            <div className='w-full md:w-1/2 flex'>
+            <About />
+            </div>
+          
           <div className='w-full md:w-1/2 flex flex-col'>
             <EmailForm />
           </div>
