@@ -10,6 +10,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 export const Home = () => {
+
   const images = [
     { src: AI, alt: "AI Image" },
     { src: fullStack, alt: "Full Stack Development Image" },
@@ -17,16 +18,16 @@ export const Home = () => {
     { src: mobile, alt: "Mobile Development Image" },
   ];
   return (
-    <div className='w-full  m-4  h-auto flex justify-center mt-[100px] '>
-      <div className='flex flex-col sm:flex-row p-4 w-[1320px] bg-[#fdf0df] rounded-2xl shadow-xl '>
+    <div className='w-full m-4  h-auto flex justify-center mt-[100px] '>
+      <div className='flex flex-col py-10 sm:flex-row p-4 w-[1320px] bg-[#fdf0df] rounded-2xl shadow-xl '>
         <div className='sm:w-1/2 w-full h-full my-auto flex flex-col justify-center sm:justify-start  p-6 rounded-lg gap-4 ml-4'>
           <h1 className="text-4xl text-textColor font-bold mb-2 ">Craft a legacy of success with our cutting-edge AI expertise.</h1>
           <p className="mb-4 text-xl text-textColor pr-6">
             Elevate Your Legacy: Unlock Success with Our Leading AI Expertise. Transform Your Future through Innovative Precision and Vision.
           </p>
-          <button className="bg-textColor w-[250px] py-3 text-lg text-white px-4 rounded hover:bg-textHover transition-transform hover:-translate-y-1 duration-500 mx-auto">
+          <a className="bg-textColor w-[250px] py-3 text-lg text-white px-4 rounded hover:bg-textHover transition-transform hover:-translate-y-1 duration-500 mx-auto" href='#ContactUs'>
             Contact Us
-          </button>
+          </a>
         </div>
         <div className='flex items-center justify-center ml-10 w-[400px]'>
 

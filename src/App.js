@@ -6,8 +6,10 @@ import { Services } from './Page/Services/Services';
 import { ContactUs } from './Page/ContactUs/ContactUs';
 import { Footer } from './Component/Footer';
 
+
 function App() {
   return (
+
     <div className="flex flex-col gap-4">
       <NavBar />
       <Home />
@@ -15,6 +17,7 @@ function App() {
       <ContactUs />
       <Footer />
     </div>
+
   );
 }
 
