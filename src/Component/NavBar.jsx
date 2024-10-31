@@ -3,7 +3,7 @@ import logo from '../Assets/images/logo.png';
 
 export const NavBar = () => {
   return (
-<div className='w-full h-[90px] fixed bg-slate-200 shadow-xl'>
+<div className='w-full h-[90px]  bg-slate-200 shadow-xl'>
 <div className='justify-between flex p-2 mx-4'>
     <div className='p-2 flex items-center justify-center'>
         <img src={logo} alt='logo' className='w-[250px] h-full' />
