@@ -17,9 +17,9 @@ export const Home = () => {
     { src: mobile, alt: "Mobile Development Image" },
   ];
   return (
-    <div className='w-full bg-[#dbd9d9] m-4 rounded-2xl shadow-xl h-[600px] flex justify-center'>
-      <div className='flex p-4 w-full max-w-3xl'>
-        <div className='w-1/2 h-full my-auto flex flex-col justify-center p-6 rounded-lg'>
+    <div className='w-full  m-4  h-[550px] flex justify-center mt-[100px] '>
+      <div className='flex p-4 w-[1320px] bg-[#fdf0df] rounded-2xl shadow-xl '>
+        <div className='w-1/2 h-full my-auto flex flex-col justify-center p-6 rounded-lg gap-4 ml-4'>
           <h1 className="text-4xl text-textColor font-bold mb-2">Craft a legacy of success with our cutting-edge AI expertise.</h1>
           <p className="mb-4 text-xl text-textColor">
             Elevate Your Legacy: Unlock Success with Our Leading AI Expertise. Transform Your Future through Innovative Precision and Vision.
@@ -28,7 +28,7 @@ export const Home = () => {
             Contact Us
           </button>
         </div>
-        <div className='flex items-center justify-center w-1/2'>
+        <div className='flex items-center justify-center ml-10 w-[400px]'>
 
           <Swiper
             modules={[Autoplay]}
@@ -43,7 +43,7 @@ export const Home = () => {
           >
             {images.map((image, index) => (
               <SwiperSlide key={index}>
-                <img src={image.src} alt={image.alt} className="w-full rounded-xl h-[400px]" />
+                <img src={image.src} alt={image.alt} className="w-full rounded-xl h-[400px] z-20" />
               </SwiperSlide>
             ))}
           </Swiper>
