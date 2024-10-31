@@ -7,6 +7,8 @@ import pm from './images/pm.png';
 import team from './images/team.png';
 import UI from './images/UI.png';
 import digital from './images/digital.png';
+import sl from './images/sl.png';
+import aus from './images/aus.png';
 
 
 export{
@@ -18,5 +20,7 @@ export{
     pm,
     UI,
     digital,
-    team
+    team,
+    sl,
+    aus
 }
