@@ -1,6 +1,6 @@
 import React from 'react';
 import { EmailForm } from './EmailForm';
-import { OurOffices } from './OurOffices/OurOffices';
+import { OurOffices } from './OurOffices';
 import { About } from './About';
 
 export const ContactUs = () => {

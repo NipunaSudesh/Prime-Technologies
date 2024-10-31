@@ -1,7 +1,7 @@
 import React from 'react'
 import { OfficeCard } from './OfficeCard'
-import sl from '../../../Assets/images/sl.png'
-import aus from '../../../Assets/images/aus.png'
+import sl from '../../Assets/images/sl.png'
+import aus from '../../Assets/images/aus.png'
 
 export const OurOffices = () => {
   return (
