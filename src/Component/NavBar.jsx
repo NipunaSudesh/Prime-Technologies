@@ -44,8 +44,8 @@ export const NavBar = () => {
 
           
           {showMenu && (
-            <div className="w-[30%] h-[150px] absolute top-0 right-0 bg-[#f1eee9] p-4 shadow-lg">
-              <ul className="flex flex-col gap-3">
+            <div className="w-[35%] h-[160px] absolute top-0 right-10 bg-[#f1eee9] p-4 shadow-lg ">
+              <ul className="flex flex-col gap-2 ">
                 <li>
                   <Link to='/' className='text-2xl tracking-wide cursor-pointer duration-500 text-textColor hover:text-textHover transform hover:scale-105 border-b-2 border-transparent hover:border-textHover'>
                     Home
@@ -63,7 +63,7 @@ export const NavBar = () => {
                 </li>
                 <span
                 onClick={() => setShowMenu(false)}
-                className="absolute top-4 right-4 text-textColor hover:text-textHover duration-300 text-2xl cursor-pointer"
+                className="absolute top-5 right-1 text-textColor hover:text-textHover duration-300 text-2xl cursor-pointer "
               >
                 <IoMdClose />
               </span>
