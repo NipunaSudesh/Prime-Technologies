@@ -9,17 +9,17 @@ export const NavBar = () => {
 
   return (
     <div className='w-full h-[90px] fixed bg-[#f1eee9] shadow-xl z-10'>
-      <div className='justify-between gap-10 flex p-2 mx-[100px]'>
-        <div className='flex items-center justify-center'>
+      <div className='justify-between gap-4 flex p-2 max-w-screen-xl w-full '>
+        <div className='flex items-center justify-center  w-full'>
           <img src={logo} alt='logo' className='w-[250px] mb-[40px] h-[70px]' />
         </div>
         
      
-        <div className='w-full justify-end flex gap-10 text-center my-auto'>
+        <div className='w-full justify-end flex gap-10 text-center my-auto mr-10'>
         
         {!showMenu && (
   <div className='flex md:hidden' onClick={() => setShowMenu(true)}>
-    <IoMenu className='w-[60px] h-[50px] text-textColor cursor-pointer mb-[40px]' />
+    <IoMenu className='w-[60px] h-[50px] text-textColor cursor-pointer mb-[40px] ml-10' />
   </div>
 )}
 
