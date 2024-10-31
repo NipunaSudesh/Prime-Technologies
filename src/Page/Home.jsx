@@ -18,7 +18,7 @@ export const Home = () => {
   ];
   return (
     <div className='w-full  m-4  h-[550px] flex justify-center mt-[100px] '>
-      <div className='flex p-4 w-[1320px] bg-[#fdf0df] rounded-2xl shadow-xl '>
+      <div className='flex p-4 w-[1320px] bg-[#fbf9f6] rounded-2xl shadow-xl '>
         <div className='w-1/2 h-full my-auto flex flex-col justify-center p-6 rounded-lg gap-4 ml-4'>
           <h1 className="text-4xl text-textColor font-bold mb-2">Craft a legacy of success with our cutting-edge AI expertise.</h1>
           <p className="mb-4 text-xl text-textColor">

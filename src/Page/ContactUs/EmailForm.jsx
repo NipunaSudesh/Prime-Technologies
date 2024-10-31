@@ -7,7 +7,7 @@ const [email,setEmail] =useState('');
 const [message,setMessage] =useState('');
 
   return (
-    <div className='w-full   p-4 lgl:p-8 bg-dark h-full flex flex-col gap-5 justify-betweeen rounded-xl shadow-xl bg-[#edeadb]'>
+    <div className='w-full   p-4 lgl:p-8 bg-dark h-full flex flex-col gap-5 justify-betweeen rounded-xl shadow-xl bg-[#edebe8]'>
         <form className='w-[95%] mx-2 flex flex-col gap-2 py-2'>
         <div className='w-full mt-5 gap-10'>
             <div className='w-full flex flex-col'>
@@ -49,6 +49,7 @@ const [message,setMessage] =useState('');
               rows="3"
                 name="message"
                 onChange={(e) => setMessage(e.target.value)}
+                className='p-1 rounded-sm active:outline-none hover:outline-[#7d7472] focus-visible:outline-[#7d7472] outline-none focus-visible:border-b-transparent duration-300'
               value={message}
             ></textarea>
             </div>
