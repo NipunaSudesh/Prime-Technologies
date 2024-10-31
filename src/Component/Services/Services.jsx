@@ -10,7 +10,7 @@ import digital from '../../Assets/images/digital.png';
 
 export const Services = () => {
   return (
-    <div id='Services' className='w-full mt-2 flex flex-col h-auto gap-4 items-center'>
+    <div id='Services' className='w-full  flex flex-col h-auto gap-4 items-center mt-[120px]'>
       <div className='max-w-screen-xl w-full px-4 sm:px-10'>
         <div className='w-full mt-3 text-center'>
           <h1 className='text-4xl font-bold'>Our Services</h1>
